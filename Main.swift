@@ -1,0 +1,7 @@
+print("Choose either 0.25, 0.5 or 1 meter logs")
+let LogLengthString = readLine()
+let LogLengthInt = Double(LogLengthString!)
+var LogNumMult = Double(20 * LogLengthInt!)
+var LogNum = Double(1100 / LogNumMult)
+print("You can fit the following number of logs on the logging truck: ")
+print(LogNum)
